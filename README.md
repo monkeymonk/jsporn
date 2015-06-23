@@ -10,7 +10,7 @@ function L337(str) {
   }); 
 }
 ```
-> Author: [Markandey Singh](https://twitter.com/markandey) / Source: [JSOneLines](http://www.jsoneliners.com/category/function/)
+> Author: [Markandey Singh](https://twitter.com/markandey) / Source: [JSOneLiners](http://www.jsoneliners.com/category/function/)
 
 #### Padding numbers
 ```javascript
