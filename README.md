@@ -5,7 +5,7 @@
 #### Padding numbers
 ```javascript
 function pad(v){
-  return ('0'+v).substr(-2);
+  return ('0'+v).substr(-2)
 }
 pad(6)  // 06
 pad(13) // 13
@@ -18,7 +18,9 @@ pad(13) // 13
 #### Getting URL parameters
 ```javascript
 function getQueryParams(){
-  return document.location.search.replace(/(^\?)/,'').split('&').reduce(function(o,n){n=n.split('=');o[n[0]]=n[1];return o},{})
+  return document.location.search.replace(/(^\?)/,'').split('&').reduce(function(o,n){
+    n = n.split('='); o[n[0]] = n[1]; return o
+  },{})
 }
 getQueryParams()  // {key: "value"}
 ```
