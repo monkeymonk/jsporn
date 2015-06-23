@@ -1,5 +1,16 @@
 # jsporn
 
+## Strings
+
+#### Padding numbers
+```javascript
+function pad(v){
+  return ('0'+v).substr(-2);
+}
+```
+> Author: Patrick Denny / Source: [Medium](https://medium.com/@p_arithmetic/a-collection-of-my-6-favorite-javascript-one-liners-7c80a4b731f8)
+
+
 ## Random 
 
 #### Debugging CSS
