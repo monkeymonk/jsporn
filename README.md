@@ -2,6 +2,16 @@
 
 ## Strings
 
+#### Making text L337
+```javascript
+function L337(str) { 
+  return str.replace(/[a-z]/g,function f(a){
+    return "4BCD3F6H1JKLMN0PQR57"[parseInt(a, 36)-10] || a.replace(/[a-t]/gi,f)
+  }); 
+}
+```
+> Author: [Markandey Singh](https://twitter.com/markandey) / Source: [JSOneLines](http://www.jsoneliners.com/category/function/)
+
 #### Padding numbers
 ```javascript
 function pad(v){
