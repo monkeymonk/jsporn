@@ -15,6 +15,13 @@ pad(13) // 13
 
 ## Random 
 
+#### Incrementing stuff with nested loops
+Because why not ?
+```javascript 
+for (var i=0,j=0;i<10 && j<10;j++,i=(j==10)?i+1:i,j=(j==10)?j=0:j,console.log(i,j)){}
+```
+> Author: [Nicholas Ortenzio](https://twitter.com/p_arithmetic) / Source: [Medium](https://medium.com/@p_arithmetic/a-collection-of-my-6-favorite-javascript-one-liners-7c80a4b731f8)
+
 #### Getting URL parameters
 ```javascript
 function getQueryParams(){
