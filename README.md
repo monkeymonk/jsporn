@@ -15,6 +15,15 @@ pad(13) // 13
 
 ## Random 
 
+#### Getting URL parameters
+```javascript
+function getQueryParams(){
+  return document.location.search.replace(/(^\?)/,'').split('&').reduce(function(o,n){n=n.split('=');o[n[0]]=n[1];return o},{})
+}
+getQueryParams()  // {key: "value"}
+```
+> Author: [Nicholas Ortenzio](https://twitter.com/p_arithmetic) / Source: [Medium](https://medium.com/@p_arithmetic/a-collection-of-my-6-favorite-javascript-one-liners-7c80a4b731f8)
+
 #### Debugging CSS
 ```javascript
 [].forEach.call($$("*"),function(a){
