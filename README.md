@@ -1,6 +1,13 @@
 # jsporn
 
+## Random 
 
+#### Debugging CSS
+```
+[].forEach.call($$("*"),function(a){
+  a.style.outline="1px solid #"+(~~(Math.random()*(1<<24))).toString(16)
+})
+```
 
 
 ## Links
