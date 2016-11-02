@@ -29,7 +29,7 @@ pad(13, 10) // 0000000013
 
 ***
 
-## Convertion
+## Conversion
 
 #### ParseInt
 
