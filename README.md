@@ -27,6 +27,19 @@ pad(6, 2)  // 06
 pad(13, 10) // 0000000013
 ```
 
+***
+
+## Convertion
+
+#### ParseInt
+
+```javascript
+console.log(["10", "10", "10"].map(parseInt));
+// return [10, NaN, 2]
+```
+
+
+***
 
 ## Random 
 
